@@ -8,6 +8,7 @@ namespace Roster.Client.Views
         public HomeView()
         {
             InitializeComponent();
+            BindingContext = new { Title = "Roster App" };
         }
     }
 }
